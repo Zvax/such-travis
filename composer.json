@@ -1,0 +1,14 @@
+{
+    "name": "zvax/such-travis",
+    "description": "nothing to see here",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Félix Gagnon-Grenier",
+            "email": "fractalesque@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^5.6"
+    }
+}
