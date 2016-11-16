@@ -1,6 +1,6 @@
 {
-    "name": "zvax/such-travis",
-    "description": "nothing to see here",
+    "name": "zvax/portal",
+    "description": "a space for my different gadgets",
     "license": "MIT",
     "authors": [
         {
@@ -8,7 +8,23 @@
             "email": "fractalesque@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Zvax\\": "src/",
+            "Berilium\\": "lib/Berilium/src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
     "require": {
+        "php": ">=7.0",
+        "rdlowrey/auryn": "^1.4",
+        "nikic/fast-route": "^1.0",
+        "patricklouys/http": "^1.4",
+        "zvax/stepping": "^0.0.3"
+    },
+    "require-dev": {
         "phpunit/phpunit": "^5.6"
     }
 }
